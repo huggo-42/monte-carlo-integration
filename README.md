@@ -1,4 +1,10 @@
-# Monte Carlo Integration
+Table of contents
+- [Explanation](#monte-carlo-integration)
+- [Benchmarking](#benchmarking)
+- [Visual Representation with plots](#visual-representation)
+- [Build, Run and Output](#build-run-and-output)
+
+## Monte Carlo Integration
 
 Testing the randomness of a pseudo-random number generator through the Monte Carlo Integration.
 
@@ -81,8 +87,8 @@ This proves that, even though pseudo, our random number generator is (approximat
 | 1_000_000 | 0.785405 | -0.000006   |  | 1_000_000 | 0.785399 | -0.000001   |
 0------------------------------------0  0------------------------------------0
 ```
-
-<details> <summary>Here's what it looks like visually:</summary>
+## Visual Representation
+Here's what it looks like visually:
 
 - Green dots are darts that landed inside the circle.
 - Red dots are darts that landed outside the circle.
@@ -98,9 +104,8 @@ This proves that, even though pseudo, our random number generator is (approximat
 
 #### Throwing 1_000_000 darts
 ![unable to load image](pyplot/result-1_000_000.png)
-</details>
 
-# Build and run
+## Build, Run and Output
 
 Build
 ```bash
@@ -109,7 +114,7 @@ $ make
 
 Run
 ```bash
-./monte_carlo_integration
+$ ./monte_carlo_integration
 ```
 
 Output
